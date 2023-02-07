@@ -1,0 +1,63 @@
+newmtl FBXASC051dplant_SmallBalsam_06SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 3dplant_SmallBalsam_albedo.tif
+Ni 1.00
+newmtl lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 5d083506-fe63-4faa-933e-3c97595c32b5.png
+Ni 1.00
+newmtl lambert3SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd pexels-engin-akyurt-2347329.jpg
+Ni 1.00
+newmtl pasted__FBXASC051dplant_SmallBalsam_06SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 3dplant_SmallBalsam_albedo.tif
+Ni 1.00
+newmtl pasted__FBXASC051dplant_SmallBalsam_06SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 3dplant_SmallBalsam_albedo.tif
+Ni 1.00
+newmtl pasted__FBXASC051dplant_SmallBalsam_06SG2
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 3dplant_SmallBalsam_albedo.tif
+Ni 1.00
+newmtl pasted__FBXASC051dplant_SmallBalsam_06SG3
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 3dplant_SmallBalsam_albedo.tif
+Ni 1.00
+newmtl pasted__pasted__FBXASC051dplant_SmallBalsam_06SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 3dplant_SmallBalsam_albedo.tif
+Ni 1.00
+newmtl pasted__pasted__FBXASC051dplant_SmallBalsam_06SG1
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 3dplant_SmallBalsam_albedo.tif
+Ni 1.00

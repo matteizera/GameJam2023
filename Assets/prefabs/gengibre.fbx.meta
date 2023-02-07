@@ -1,0 +1,228 @@
+fileFormatVersion: 2
+guid: 88f979bc7aeef4d48b83138a5a5dd0f9
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 6385975442928586872
+    second: Armature|Armature|Armature|1 TPOSE
+  - first:
+      74: -6417138240575708860
+    second: Armature|Armature|Armature|1 TPOSE.002
+  - first:
+      74: 6764120691300083165
+    second: Armature|Armature|Armature|1 TPOSE.003
+  - first:
+      74: 7964078064925832011
+    second: Armature|Armature|Armature|catch
+  - first:
+      74: -5594230404490323788
+    second: Armature|Armature|Armature|catch.001
+  - first:
+      74: 2087871863727037127
+    second: Armature|Armature|Armature|catch.002
+  - first:
+      74: 291726005246125317
+    second: Armature|Armature|Armature|crouch
+  - first:
+      74: 4677259714214484028
+    second: Armature|Armature|Armature|crouch.001
+  - first:
+      74: 3083914977089458004
+    second: Armature|Armature|Armature|crouch.002
+  - first:
+      74: 5555896027359943381
+    second: Armature|Armature|Armature|dancinha
+  - first:
+      74: 8665021551098486924
+    second: Armature|Armature|Armature|dancinha.001
+  - first:
+      74: 4636521157773995319
+    second: Armature|Armature|Armature|dancinha.002
+  - first:
+      74: 5096310600659364352
+    second: Armature|Armature|Armature|dano
+  - first:
+      74: -5592067675485735515
+    second: Armature|Armature|Armature|dano.001
+  - first:
+      74: 9024796960529229940
+    second: Armature|Armature|Armature|dano.002
+  - first:
+      74: -6075444569960973409
+    second: Armature|Armature|Armature|idle
+  - first:
+      74: 2000713315902632494
+    second: Armature|Armature|Armature|idle.001
+  - first:
+      74: -8267519359891684672
+    second: Armature|Armature|Armature|idle.002
+  - first:
+      74: -4334926040007836375
+    second: Armature|Armature|Armature|jump
+  - first:
+      74: -8878895005411577708
+    second: Armature|Armature|Armature|jump.001
+  - first:
+      74: -1766992767133787256
+    second: Armature|Armature|Armature|jump.002
+  - first:
+      74: 7006626994381950466
+    second: Armature|Armature|Armature|oraora
+  - first:
+      74: 4106703069259826480
+    second: Armature|Armature|Armature|oraora.001
+  - first:
+      74: 162661596618703594
+    second: Armature|Armature|Armature|oraora.002
+  - first:
+      74: -3403146001786666879
+    second: Armature|Armature|Armature|poseVitoria
+  - first:
+      74: -567691181670619272
+    second: Armature|Armature|Armature|poseVitoria.001
+  - first:
+      74: 8130692992207797379
+    second: Armature|Armature|Armature|poseVitoria.002
+  - first:
+      74: -8303426155881059399
+    second: Armature|Armature|Armature|run
+  - first:
+      74: 3849898809894112453
+    second: Armature|Armature|Armature|run.001
+  - first:
+      74: 3697458199467667478
+    second: Armature|Armature|Armature|run.002
+  - first:
+      74: 6030987346364592817
+    second: Armature|Armature|Armature|socoBaseL
+  - first:
+      74: 2338821089095569819
+    second: Armature|Armature|Armature|socoBaseL.001
+  - first:
+      74: -6282420517699311747
+    second: Armature|Armature|Armature|socoBaseL.002
+  - first:
+      74: 5354979414910611851
+    second: Armature|Armature|Armature|socoBaseR
+  - first:
+      74: -2686225137135205733
+    second: Armature|Armature|Armature|socoBaseR.001
+  - first:
+      74: -4802039295960322151
+    second: Armature|Armature|Armature|socoBaseR.002
+  - first:
+      74: 2683135449592912877
+    second: Armature|Armature|Armature|testeDance
+  - first:
+      74: 915212494922664238
+    second: Armature|Armature|Armature|testeDance.001
+  - first:
+      74: -7913947617324042226
+    second: Armature|Armature|Armature|testeDance.002
+  - first:
+      74: 4836895392018936540
+    second: Armature|Armature|Armature|throw
+  - first:
+      74: 9130758047658062695
+    second: Armature|Armature|Armature|throw.001
+  - first:
+      74: -558194834815555136
+    second: Armature|Armature|Armature|throw.002
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
