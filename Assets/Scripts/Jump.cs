@@ -12,8 +12,8 @@ public class Jump : MonoBehaviour
     private bool _groundedPlayer;
     [SerializeField]
     private float _jumpHeight = 1.0f;
-    private bool _jumpPressed;
     private float _gravityValue = -9.81f;
+    private bool _jumpPressed;
     private Animator mAnimator;
 
     // Start is called before the first frame update

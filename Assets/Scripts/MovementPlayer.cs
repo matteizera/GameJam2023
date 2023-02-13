@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.InputSystem.InputAction;
 
 public class MovementPlayer : MonoBehaviour
 {
+    public Jump jump;
+
+
+
+    private PlayerConfiguration playerConfig;
     public Transform atkPoint;
     public float atkRange = 1.0f;
     public LayerMask enemyLayers;
@@ -30,27 +36,14 @@ public class MovementPlayer : MonoBehaviour
     private float nextAttackAllowed;
     public GameObject throwable;
 
+    private NewControls1 controls;
+
     [Range(0, 45)] public float maxRoundVariation;
     public float muzzleOffset;
-    // //pegar item
-    // public Vector3 maoposit;
-    // public Quaternion maorot;
-    // public GameObject pai;
-    // public GameObject filho;
-    // public Collider balderg;
-    // public Collider madeirerg;
-    // public GameObject tabua;
-    // public GameObject tabuachao;
-    // public GameObject baldePlayer;
-    // public GameObject balde;
-    // public bool carregandobalde = false;
-    // public CapsuleCollider colliderplayer;
-    // public bool SegurandoMadeira = false, segurandoalgo = false;
-    // public GameObject nfilho;
-
-
-
-
+    private bool _jumpPressed;
+    [SerializeField]
+    private float _jumpHeight = 1.0f;
+    private float _gravityValue = -9.81f;
     private void Start()
 
     {
@@ -91,15 +84,41 @@ public class MovementPlayer : MonoBehaviour
                 nextAttackAllowed = Time.time + cooldown;
                 isAttacking = false;
             }
-
-
-
-//pegar items
-
-
-
     }
-    
+
+    public void InitializePlayer(PlayerConfiguration pc)
+    {
+        playerConfig = pc;
+        /*playerMesh.material = pc.PlayerMaterial;*/
+        playerConfig.Input.onActionTriggered += Input_onActionTriggered;
+    }
+
+    private void Input_onActionTriggered(CallbackContext obj)
+    {
+
+        switch (obj.action.name)
+        {
+            case "Move":
+                OnMove(obj);
+                break;
+            case "FIRE":
+                Fire(obj);
+                break;
+            case "JUMP":
+                jump.OnJump(obj);
+                break;
+            case "GRAB":
+                Grab(obj);
+                break;
+            case "HIT":
+                Hit(obj);
+                break;
+            default:
+                break;
+        }
+    }
+
+
 
     public void OnMove(InputAction.CallbackContext ctx) => movementInput = ctx.ReadValue<Vector2>();
 

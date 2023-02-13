@@ -99,7 +99,7 @@
                 {
                     "name": "",
                     "id": "61f37531-7896-437f-bc25-b15c34edf43c",
-                    "path": "<DualShockGamepad>/buttonSouth",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
