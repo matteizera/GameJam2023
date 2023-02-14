@@ -2467,6 +2467,7 @@ GameObject:
   - component: {fileID: 5310529081219741378}
   - component: {fileID: 7396235298582862339}
   - component: {fileID: 7434819158037590593}
+  - component: {fileID: 5227477616616571685}
   m_Layer: 0
   m_Name: gengibre2
   m_TagString: Player
@@ -2591,6 +2592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34db4e07fb7752c4e87bdd7ca98309c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jump: {fileID: 5227477616616571685}
   atkPoint: {fileID: 5181023544881775219}
   atkRange: 4
   enemyLayers:
@@ -2623,6 +2625,20 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 3.38, z: 0}
+--- !u!114 &5227477616616571685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8560579367773031814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b882bfd76c984f409036e35836ba2f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _groundedPlayer: 0
+  _jumpHeight: 1
 --- !u!1 &8897462915434957276
 GameObject:
   m_ObjectHideFlags: 0

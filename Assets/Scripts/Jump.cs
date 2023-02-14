@@ -47,7 +47,7 @@ public class Jump : MonoBehaviour
         _characterController.Move(_playerVelocity * Time.deltaTime);
     }
 
-    public void OnJump(InputAction.CallbackContext context){
+    public void OnJump(){
         if(_characterController.velocity.y==0 ){
             Debug.Log("jumping");
             _jumpPressed=true;

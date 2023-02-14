@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using static UnityEngine.InputSystem.InputAction;
@@ -9,6 +10,9 @@ public class MovementPlayer : MonoBehaviour
     public Jump jump;
 
 
+
+    [SerializeField]
+    private TextMeshProUGUI identificador;
 
     private PlayerConfiguration playerConfig;
     public Transform atkPoint;
@@ -89,7 +93,8 @@ public class MovementPlayer : MonoBehaviour
     public void InitializePlayer(PlayerConfiguration pc)
     {
         playerConfig = pc;
-        /*playerMesh.material = pc.PlayerMaterial;*/
+        Debug.Log(pc.PlayerIndex.ToString());
+        identificador.SetText("P" + (pc.PlayerIndex + 1));
         playerConfig.Input.onActionTriggered += Input_onActionTriggered;
     }
 
@@ -105,7 +110,7 @@ public class MovementPlayer : MonoBehaviour
                 Fire(obj);
                 break;
             case "JUMP":
-                jump.OnJump(obj);
+                jump.OnJump();
                 break;
             case "GRAB":
                 Grab(obj);
